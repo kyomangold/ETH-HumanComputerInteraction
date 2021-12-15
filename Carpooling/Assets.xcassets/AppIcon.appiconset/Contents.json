@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "ridemates_app_120.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "ridemates_app_180.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -71,11 +73,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "ridemates_app_76.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
+      "filename" : "ridemates_app_152.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
@@ -86,6 +90,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "ridemates_app_1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
