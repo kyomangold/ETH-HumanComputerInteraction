@@ -19,7 +19,7 @@ struct AccountView: View {
                 
                 bio
                 
-                pastrides
+                rides
                 
                 menu
                 
@@ -75,8 +75,11 @@ struct AccountView: View {
         .listRowSeparator(.hidden)
     }
     
-    var pastrides: some View {
+    var rides: some View {
         Section{
+            NavigationLink{ UpcomingRidesView() } label: {
+                Label("Upcoming Rides", systemImage: "location.north.line")
+            }
             NavigationLink{ PastRidesView() } label: {
                 Label("Past Rides", systemImage: "clock.arrow.circlepath")
             }
@@ -86,6 +89,7 @@ struct AccountView: View {
         .listRowSeparator(.hidden)
     }
     
+ 
     var menu: some View{
         Section {
             NavigationLink(destination: SettingsView()) {
@@ -93,7 +97,7 @@ struct AccountView: View {
             }
             
             NavigationLink { BillingView() } label: {
-                Label("Billing", systemImage: "creditcard")
+                Label("Payment & Billing", systemImage: "creditcard")
             }
             
             NavigationLink { HelpView() } label: {

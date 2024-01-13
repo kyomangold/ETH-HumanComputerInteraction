@@ -53,6 +53,7 @@
 		313B8FE4275E976A0035F323 /* ProfileViewDriver6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B8FE3275E976A0035F323 /* ProfileViewDriver6.swift */; };
 		313B8FE6275E976F0035F323 /* ProfileViewDriver7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B8FE5275E976F0035F323 /* ProfileViewDriver7.swift */; };
 		313B8FE8275EA63A0035F323 /* OnTheWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B8FE7275EA63A0035F323 /* OnTheWayView.swift */; };
+		3176E62B276A8112002C9FB7 /* UpcomingRidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176E62A276A8112002C9FB7 /* UpcomingRidesView.swift */; };
 		31C738A6275D0114000BACA8 /* FoundSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C738A5275D0114000BACA8 /* FoundSearchView.swift */; };
 		31C738A8275D0FB3000BACA8 /* SearchDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C738A7275D0FB3000BACA8 /* SearchDetailsView.swift */; };
 		31C738AA275D4076000BACA8 /* RideSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C738A9275D4076000BACA8 /* RideSelectionView.swift */; };
@@ -103,6 +104,7 @@
 		313B8FE3275E976A0035F323 /* ProfileViewDriver6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewDriver6.swift; sourceTree = "<group>"; };
 		313B8FE5275E976F0035F323 /* ProfileViewDriver7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewDriver7.swift; sourceTree = "<group>"; };
 		313B8FE7275EA63A0035F323 /* OnTheWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnTheWayView.swift; path = Carpooling/Detail/OnTheWayView.swift; sourceTree = SOURCE_ROOT; };
+		3176E62A276A8112002C9FB7 /* UpcomingRidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRidesView.swift; sourceTree = "<group>"; };
 		31C738A5275D0114000BACA8 /* FoundSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoundSearchView.swift; path = Carpooling/FoundSearchView.swift; sourceTree = SOURCE_ROOT; };
 		31C738A7275D0FB3000BACA8 /* SearchDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailsView.swift; sourceTree = "<group>"; };
 		31C738A9275D4076000BACA8 /* RideSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideSelectionView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				312961EF2743FB8600176E5A /* OfferView.swift */,
 				312961F12743FB9100176E5A /* ForestView.swift */,
 				312961FA2744379700176E5A /* AccountView.swift */,
+				3176E62A276A8112002C9FB7 /* UpcomingRidesView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				313B8FE4275E976A0035F323 /* ProfileViewDriver6.swift in Sources */,
 				31038EFF275FB163007B39FA /* CheckPAXView.swift in Sources */,
 				312961D22743EEB600176E5A /* CarpoolingApp.swift in Sources */,
+				3176E62B276A8112002C9FB7 /* UpcomingRidesView.swift in Sources */,
 				312961E82743F6B300176E5A /* PreferenceKey.swift in Sources */,
 				31038F13275FF444007B39FA /* ThankYouView.swift in Sources */,
 				31038F0D275FE547007B39FA /* CheckRideMatesView.swift in Sources */,

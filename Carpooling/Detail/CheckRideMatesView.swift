@@ -77,23 +77,18 @@ var ridemate_driver1: some View {
         
         Group{
             VStack{
-                HStack (spacing: 15) {
+                HStack {
                     Image(systemName: "heart.fill")
-                        .padding(.horizontal)
-                    Text("Movies, Food, Travel")
-                }.position(x: 160)
+                        .padding(.horizontal, 20.0)
+                    Text("Formula 1, Books")
+                }.position(x: 140, y: 0)
                 HStack {
-                    Image(systemName: "dollarsign.square")
-                        .padding(.horizontal,24)
-                    Text("CHF 7.50")
-                }.position(x: 113)
-                HStack {
-                    Image(systemName: "person.3")
-                        .padding(.horizontal, 14)
-                    Text("2 of 4 seats available")
-                }.position(x: 158)
-                
+                    Image(systemName: "briefcase.fill")
+                        .padding(.horizontal, 19.0)
+                    Text("Teacher")
+                }.position(x: 105, y: 20)
             }.frame(alignment: .leading)
+                .padding(.bottom, 25)
         }
     }
     .frame(maxWidth: .infinity)
@@ -132,23 +127,18 @@ var ridemate_pax_1: some View {
         
         Group{
             VStack{
-                HStack (spacing: 15) {
+                HStack {
                     Image(systemName: "heart.fill")
-                        .padding(.horizontal)
-                    Text("Movies, Food, Travel")
-                }.position(x: 160)
+                        .padding(.horizontal, 20.0)
+                    Text("Football, Pop Music")
+                }.position(x: 150, y: 0)
                 HStack {
-                    Image(systemName: "dollarsign.square")
-                        .padding(.horizontal,24)
-                    Text("CHF 7.50")
-                }.position(x: 113)
-                HStack {
-                    Image(systemName: "person.3")
-                        .padding(.horizontal, 14)
-                    Text("2 of 4 seats available")
-                }.position(x: 158)
-                
+                    Image(systemName: "briefcase.fill")
+                        .padding(.horizontal, 19.0)
+                    Text("Gym Teacher")
+                }.position(x: 125, y: 20)
             }.frame(alignment: .leading)
+                .padding(.bottom, 25)
         }
     }
     .frame(maxWidth: .infinity)
@@ -175,7 +165,7 @@ var ridemate_pax_2: some View {
                     Image(systemName: "star.fill")
                         .imageScale(.medium)
                         .foregroundColor(.yellow)
-                    Text("4.9")
+                    Text("4.7")
                         .foregroundColor(.secondary)
                         .fontWeight(.semibold)
                 }.offset(y: -10)
@@ -187,23 +177,19 @@ var ridemate_pax_2: some View {
         
         Group{
             VStack{
-                HStack (spacing: 15) {
+                HStack {
                     Image(systemName: "heart.fill")
-                        .padding(.horizontal)
-                    Text("Movies, Food, Travel")
-                }.position(x: 160)
+                        .padding(.horizontal, 20.0)
+                    Text("Climbing, Hiking, Gaming")
+                }.position(x: 171, y: 0)
                 HStack {
-                    Image(systemName: "dollarsign.square")
-                        .padding(.horizontal,24)
-                    Text("CHF 7.50")
-                }.position(x: 113)
-                HStack {
-                    Image(systemName: "person.3")
-                        .padding(.horizontal, 14)
-                    Text("2 of 4 seats available")
-                }.position(x: 158)
+                    Image(systemName: "briefcase.fill")
+                        .padding(.horizontal, 19.0)
+                    Text("Journalist")
+                }.position(x: 112, y: 20)
                 
             }.frame(alignment: .leading)
+                .padding(.bottom, 25)
         }
     }
     .frame(maxWidth: .infinity)
@@ -219,7 +205,7 @@ var ridemate_pax_3: some View {
                 .frame(width: 100, height: 100, alignment: .leading)
                 .cornerRadius(10)
                 .padding()
-                .offset(x: -24)
+
             
             VStack {
                 Text("Sarah")
@@ -242,23 +228,20 @@ var ridemate_pax_3: some View {
         
         Group{
             VStack{
-                HStack (spacing: 15) {
+                HStack {
                     Image(systemName: "heart.fill")
-                        .padding(.horizontal)
-                    Text("Movies, Food, Travel")
-                }.position(x: 160)
+                        .padding(.horizontal, 20.0)
+                    Text("Rock Concerts, Travel")
+                }.position(x: 158.5, y: 0)
                 HStack {
-                    Image(systemName: "dollarsign.square")
-                        .padding(.horizontal,24)
-                    Text("CHF 7.50")
-                }.position(x: 113)
-                HStack {
-                    Image(systemName: "person.3")
-                        .padding(.horizontal, 14)
-                    Text("2 of 4 seats available")
-                }.position(x: 158)
+                    Image(systemName: "briefcase.fill")
+                        .padding(.horizontal, 19.0)
+                    Text("Software Engineer")
+                }.position(x: 145, y: 20)
+                    
                 
             }.frame(alignment: .leading)
+                .padding(.bottom, 25)
         }
     }
     .frame(maxWidth: .infinity)

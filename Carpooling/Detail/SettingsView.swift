@@ -126,9 +126,8 @@ struct SettingsView: View {
                           dismissButton: .default(Text("OK")))
                 }
             }
-        })
+        }).padding(.bottom, 50)
             .navigationBarTitle("Settings")
-        
     }
 }
 

@@ -73,8 +73,7 @@ struct OnTheWayView: View {
                     
                 
                 HStack{
-                    // "imessage: 0791234567"
-                    Link(destination: URL(string: "https://www.apple.com")!, label:{
+                    Link(destination: URL(string: "imessage:0791234567")!, label:{
                         Image(systemName: "message")
                         Text("Text driver")
                     })
@@ -82,8 +81,7 @@ struct OnTheWayView: View {
                         .foregroundColor(.primary)
                         .background(.ultraThinMaterial)
                         .backgroundStyle(cornerRadius: 7, opacity: 0.4)
-                    // "tel: 0791234567"
-                    Link(destination: URL(string: "https://www.apple.com")!, label:{
+                    Link(destination: URL(string: "tel:0791234567")!, label:{
                         Image(systemName: "phone")
                         Text("Call driver")
                     }).frame(width: 150, height: 30)

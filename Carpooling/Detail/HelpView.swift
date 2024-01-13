@@ -9,7 +9,22 @@ import SwiftUI
 
 struct HelpView: View {
     var body: some View {
-        Text("Here you can find help!")
+        
+        
+        Link(destination: URL(string: "imessage:support@ridemates_group03.com")!)
+        {
+            VStack{
+            Image(systemName: "person.fill.questionmark")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50)
+            Text("Contact Support")
+                    .bold()
+            }
+        }.padding()
+            .navigationBarTitle(Text("Help"))
+        
+        
     }
 }
 
