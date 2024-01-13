@@ -15,5 +15,9 @@ Computational Interaction:
 - Interactive Output through Haptic Feedback
 - Computational Interaction in Mixed Reality
 
-The repository contains a folder with the code to the code of the capstone project, where all of the theoretical knowledge of the lecture had to be applied. # ETH-HumanComputerInteraction
-# ETH-HumanComputerInteraction
+The repository contains a folder with the code to the code of the capstone project, where all of the theoretical knowledge of the lecture had to be applied. The devloped iOS application is shown in the image below: 
+
+<p align="center" width="100%">
+  <img src="img/RideMates_Final.jpg"> 
+</p>
+
