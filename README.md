@@ -16,3 +16,4 @@ Computational Interaction:
 - Computational Interaction in Mixed Reality
 
 The repository contains a folder with the code to the code of the capstone project, where all of the theoretical knowledge of the lecture had to be applied. # ETH-HumanComputerInteraction
+# ETH-HumanComputerInteraction
